@@ -3,13 +3,11 @@
 <head>
 <style>
 h1{box-shadow:2px 2px 5px blue ,3px 3px 3px white;border-radius:20px;font-style:italic;letter-spacing:1px;position:relative;top:20px;text-shadow:2px 2px 3px yellow;}
-body{background-image:url("gdmlock.jpg");
-	background-position:fixed;
-	background-repeat:no-repeat;}
+
 div{box-shadow:4px 4px 8px white ,-4px -4px 8px white;
 	padding:4vw;
 	position:absolute;
-	top:15vw;left:32vw;
+	tophttps://github.com/navaneeswarreddychalla/example/edit/master/_config.yml:15vw;left:32vw;
 	background-color:black;
 	color:white;
 	font-size:20px;border-radius: 15px;}
