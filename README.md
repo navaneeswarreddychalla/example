@@ -44,7 +44,9 @@ if(!empty($_POST['save']))
 		#echo '<span style="color:#AFA;text-align:center;">Request has been sent. Please wait for my reply!</span>';
 	}
 }
-?><br><br>
+?></html>
+<html>
+<br><br>
 <form method="POST" action="#" >
 	<span>U</span>sername:&nbsp&nbsp<input type="text" name="userid"><br><br><br>
 	<input type="submit" name="save" value=" Submit "><br><br>
