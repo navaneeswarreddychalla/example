@@ -23,29 +23,6 @@ span{   color:white;font-size:25px;
 <body>
 <h1 style="color:white;text-align:center;">Signup page</h1>
 <div><center><br>
-<?php 
-session_start();
-$connect=mysqli_connect("localhost","padmin","challa@1011","naveen");
-if(!empty($_POST['save']))
-{
-	$username=$_POST['userid'];
-	$_SESSION['test']=$username;
-	$query="select * from registration where userid='$username'";
-	$result=mysqli_query($connect,$query);
-	$count=mysqli_num_rows($result);
-	if($count>0)
-	{
-	
-		header('Location: password.php');	
-	}
-	else
-	{
-		echo '<span style="color:red;font-size:17px">You are not an User</span>';
-		#echo '<span style="color:#AFA;text-align:center;">Request has been sent. Please wait for my reply!</span>';
-	}
-}
-?></html>
-<html>
 <br><br>
 <form method="POST" action="#" >
 	<span>U</span>sername:&nbsp&nbsp<input type="text" name="userid"><br><br><br>
